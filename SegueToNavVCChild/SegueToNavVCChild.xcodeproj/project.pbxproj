@@ -11,10 +11,10 @@
 		F305037E1AE64981003D342D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F305037D1AE64981003D342D /* Images.xcassets */; };
 		F30503811AE64981003D342D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F305037F1AE64981003D342D /* LaunchScreen.xib */; };
 		F305038D1AE64981003D342D /* SegueToNavVCChildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F305038C1AE64981003D342D /* SegueToNavVCChildTests.swift */; };
-		F30503971AE64C34003D342D /* ShowProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30503961AE64C34003D342D /* ShowProfileVC.swift */; };
-		F30503991AE64D15003D342D /* AllItemsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30503981AE64D15003D342D /* AllItemsTVC.swift */; };
-		F305039B1AE64DD3003D342D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F305039A1AE64DD3003D342D /* HomeVC.swift */; };
 		F305039C1AE64E57003D342D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F305037A1AE64981003D342D /* Main.storyboard */; };
+		F305039F1AE698F7003D342D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F305039D1AE698F7003D342D /* HomeVC.swift */; };
+		F30503A21AE699CA003D342D /* ShowProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30503A11AE699CA003D342D /* ShowProfileVC.swift */; };
+		F30503A41AE69AD9003D342D /* AllItemsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30503A31AE69AD9003D342D /* AllItemsTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,9 @@
 		F30503861AE64981003D342D /* SegueToNavVCChildTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueToNavVCChildTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F305038B1AE64981003D342D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F305038C1AE64981003D342D /* SegueToNavVCChildTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueToNavVCChildTests.swift; sourceTree = "<group>"; };
-		F30503961AE64C34003D342D /* ShowProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowProfileVC.swift; sourceTree = "<group>"; };
-		F30503981AE64D15003D342D /* AllItemsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllItemsTVC.swift; path = ../AllItemsTVC.swift; sourceTree = "<group>"; };
-		F305039A1AE64DD3003D342D /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = ../HomeVC.swift; sourceTree = "<group>"; };
+		F305039D1AE698F7003D342D /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F30503A11AE699CA003D342D /* ShowProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowProfileVC.swift; sourceTree = "<group>"; };
+		F30503A31AE69AD9003D342D /* AllItemsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllItemsTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				F305037A1AE64981003D342D /* Main.storyboard */,
-				F305039A1AE64DD3003D342D /* HomeVC.swift */,
-				F30503981AE64D15003D342D /* AllItemsTVC.swift */,
-				F30503961AE64C34003D342D /* ShowProfileVC.swift */,
+				F30503A11AE699CA003D342D /* ShowProfileVC.swift */,
+				F30503A31AE69AD9003D342D /* AllItemsTVC.swift */,
+				F305039D1AE698F7003D342D /* HomeVC.swift */,
 				F30503741AE64981003D342D /* Supporting Files */,
 			);
 			path = SegueToNavVCChild;
@@ -218,9 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F30503991AE64D15003D342D /* AllItemsTVC.swift in Sources */,
-				F305039B1AE64DD3003D342D /* HomeVC.swift in Sources */,
-				F30503971AE64C34003D342D /* ShowProfileVC.swift in Sources */,
+				F30503A41AE69AD9003D342D /* AllItemsTVC.swift in Sources */,
+				F30503A21AE699CA003D342D /* ShowProfileVC.swift in Sources */,
+				F305039F1AE698F7003D342D /* HomeVC.swift in Sources */,
 				F30503771AE64981003D342D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +417,7 @@
 				F30503921AE64981003D342D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F30503931AE64981003D342D /* Build configuration list for PBXNativeTarget "SegueToNavVCChildTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +426,7 @@
 				F30503951AE64981003D342D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
